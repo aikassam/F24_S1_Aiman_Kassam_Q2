@@ -13,9 +13,13 @@ public class Integers {
     private static final int HUNDRED = 100;
     private static final int TEN = 10;
 
+
+    //Here are some more constants
     private static final BigDecimal ZERO = new BigDecimal(0);
     private static final BigDecimal TWO = new BigDecimal(2);
 
+
+    //Class to convert integers to binary strings
     public static final String toBinaryUsingDivideAndModulus(int numberToConvert) {
         int integer = numberToConvert;
         if (integer<0) throw new IllegalArgumentException("Method argument cannot be negative. number="+integer);
